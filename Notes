@@ -1,0 +1,11 @@
+Frankfurt am Main:
+python scout24_scraper.py --amount 931 --name "Immobilienscout24_Frankfurt_am_Main" --query "https://www.immobilienscout24.de/gewerbe-flaechen/de/hessen/frankfurt-am-main/buero-mieten/flaeche/1000-qm/" --state "Hessen" --wait 2
+
+Berlin:
+python scout24_scraper.py --amount 473 --name "Immobilienscout24_Berlin" --query "https://www.immobilienscout24.de/gewerbe-flaechen/de/berlin/berlin/buero-mieten/flaeche/1000-qm/" --state "Berlin" --wait 2
+
+Hamburg:
+python scout24_scraper.py --amount 719 --name "Immobilienscout24_Hamburg" --query "https://www.immobilienscout24.de/gewerbe-flaechen/de/hamburg/hamburg/buero-mieten/flaeche/1000-qm/" --state "Hamburg" --wait 2
+
+München:
+python scout24_scraper.py --amount 475 --name "Immobilienscout24_München" --query "https://www.immobilienscout24.de/gewerbe-flaechen/de/hamburg/hamburg/buero-mieten/flaeche/1000-qm/" --state "Bayern" --wait 2
